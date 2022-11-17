@@ -1,0 +1,7 @@
+{
+  "name": "Foodlands",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

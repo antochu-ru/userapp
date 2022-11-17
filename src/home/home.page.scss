@@ -1,0 +1,253 @@
+ion-header {
+  padding: 10px 5px 3px 14px;
+  ion-toolbar {
+    .locationContent {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 8px;
+      }
+      .textContent {
+        .location {
+          font-family: Poppins-Medium;
+          font-size: 14px;
+          margin: 0;
+          font-size: 16px;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          color: var(--ion-color-darkBlue);
+          img {
+            margin-left: 6px;
+          }
+        }
+        .address {
+          margin: 0;
+          color: var(--ion-color-darkBlue);
+          font-family: Poppins-Medium;
+          line-height: 1;
+          font-size: 13px;
+          margin-top: 4px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+}
+
+ion-content {
+  .main_div {
+    ion-searchbar {
+      margin-top: 20px;
+    }
+    .filter_p {
+      font-size: 12px;
+      font-family: "Poppins-Medium";
+      color: var(--ion-color-darkBlue);
+      span {
+        img {
+          margin-right: 3px;
+        }
+      }
+    }
+    .offer_div {
+      margin-top: 10px;
+      margin-left: 16px;
+      overflow-y: auto;
+      display: -webkit-box;
+      .img_div {
+        margin-right: 10px;
+        position: relative;
+        img {
+          border-radius: 5px;
+          width: 135px;
+          height: 150px;
+        }
+        .offer {
+          background-color: rgba(255, 255, 255, 0.7);
+          position: absolute;
+          width: 45px;
+          height: 14px;
+          top: 10px;
+          left: 5px;
+          font-size: 9px;
+          color: var(--ion-color-darkBlue);
+          font-family: "Poppins-Medium";
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .discount_p {
+          font-size: 10px;
+          font-family: "Poppins-Medium";
+          color: var(--ion-color-white);
+          position: absolute;
+          padding: 5px 7px 5px;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.5);
+          margin-bottom: 4px;
+          border-radius: 0px 0px 5px 5px;
+          width: 100%;
+        }
+      }
+    }
+    .offer_div::-webkit-scrollbar {
+      display: none;
+    }
+    .feature_row {
+      display: -webkit-box;
+      margin-top: 15px;
+      overflow-y: auto;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      .first_div {
+        display: grid;
+        margin-right: 5px;
+        .img_row {
+          display: flex;
+          justify-content: center;
+        }
+        .detail_div {
+          display: flex;
+          .tittle {
+            font-size: 9.5px;
+            font-family: "Poppins-SemiBold";
+            color: var(--ion-color-darkBlue);
+            width: 62%;
+            margin: auto;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .feature_row::-webkit-scrollbar {
+      display: none;
+    }
+    .card_div {
+      display: flex;
+      margin: 13px 16px;
+      .div_image {
+        padding-right: 10px;
+        img {
+          border-radius: 5px;
+          width: 87px;
+          height: 78px;
+        }
+      }
+      .data_div {
+        width: 70%;
+        .btn_div {
+          font-size: 8.5px;
+          font-family: "Poppins-Medium";
+          --background: var(--ion-color-green);
+          --background-activated: var(--ion-color-green);
+          --color: var(--ion-color-white);
+          height: 20px;
+          margin-right: 0px;
+          --border-radius: 2px;
+          --box-shadow: none;
+          &.trending {
+            --background: var(--ion-color-google-btn);
+            --background-activated: var(--ion-color-google-btn);
+          }
+        }
+        .btn_color {
+          --background: var(--ion-color-btn-color);
+        }
+        .item {
+          font-size: 14px;
+          color: var(--ion-color-darkBlue);
+          font-family: "Poppins-SemiBold";
+          margin-top: 4px;
+          margin-bottom: 5px;
+        }
+        .type {
+          font-size: 10.5px;
+          font-family: "Poppins-Regular";
+          color: var(--ion-color-darkgray);
+          margin-top: 0px;
+          margin-bottom: 3px;
+        }
+        .percent {
+          font-size: 10.5px;
+          font-family: "Poppins-Medium";
+          color: var(--ion-color-green);
+          margin-top: 0px;
+          margin-bottom: 3px;
+          ion-icon {
+            margin-right: 5px;
+          }
+        }
+        .rate {
+          font-size: 10.5px;
+          display: flex;
+          font-family: "Poppins-Regular";
+          color: var(--ion-color-darkgray);
+
+          ion-icon {
+            color: var(--ion-color-yellow);
+            margin-right: 5px;
+          }
+          span {
+            margin-right: 8px;
+            .point {
+              height: 6px;
+              width: 6px;
+              background-color: var(--ion-color-green);
+              border-radius: 50%;
+              margin-right: 3px;
+              align-self: center;
+            }
+          }
+          .point_span {
+            display: flex;
+          }
+        }
+      }
+    }
+    .slider_div {
+      display: -webkit-box;
+      overflow-y: auto;
+      margin-left: 16px;
+      .menu_div {
+        margin-right: 10px;
+        position: relative;
+        img {
+          border-radius: 5px;
+          width: 100px;
+          height: 78px;
+        }
+
+        .img_type {
+          font-size: 10px;
+          font-family: "Poppins-Medium";
+          color: var(--ion-color-white);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          margin-bottom: 4px;
+          background-color: rgba(0, 0, 0, 0.4);
+          width: 100%;
+          border-radius: 0px 0px 5px 5px;
+          padding: 5px 7px;
+        }
+      }
+      .pocket_div_img {
+        img {
+          width: 135px;
+          height: 150px;
+        }
+      }
+    }
+    .slider_div::-webkit-scrollbar {
+      display: none;
+    }
+    .heading {
+      font-size: 14px;
+      font-family: "Poppins-Medium";
+      color: var(--ion-color-darkBlue);
+      margin-left: 16px;
+    }
+  }
+}
